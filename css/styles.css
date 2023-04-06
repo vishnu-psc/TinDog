@@ -63,13 +63,17 @@ p {
 
 /* Title Image */
 .title-img {
+    width: 21%;
     transform: rotate(25deg);
-    width: 60%;
+    position: absolute;
+    right: 24%;
 }
 
 /* Feature Section */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -114,4 +118,18 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.sign-up-btn {
+    width: 100%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
